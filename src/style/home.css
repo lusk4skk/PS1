@@ -1,3 +1,4 @@
+/* ===== VARIÁVEIS DE CORES E ESTILOS GLOBAIS ===== */
 :root {
   --verde-principal: #2ecc71;
   --verde-escuro: #27ae60;
@@ -11,6 +12,7 @@
   --sombra-hover: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* ===== RESET E ESTILOS BASE ===== */
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +49,7 @@ img {
   height: auto;
 }
 
+/* ===== HEADER/NAVEGAÇÃO ===== */
 .header-app {
   padding: 2rem 0;
   text-align: center;
@@ -145,6 +148,7 @@ img {
   margin: 0 auto;
 }
 
+/* ===== HERO BANNER ===== */
 .hero-banner {
   background: linear-gradient(135deg, var(--verde-claro), var(--branco));
   padding: 5rem 2rem;
@@ -195,6 +199,7 @@ img {
   color: var(--cinza-escuro);
 }
 
+/* ===== BOTÕES CTA ===== */
 .cta-button {
   display: inline-flex;
   align-items: center;
@@ -313,6 +318,7 @@ img {
   color: var(--cinza-escuro);
 }
 
+/* ===== MÉTRICAS ===== */
 .container-metrics {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -367,7 +373,7 @@ img {
   transform: translateX(5px);
 }
 
-/* ===== SERVIÇOS ===== */
+/* ===== SEÇÃO DE SERVIÇOS ===== */
 .services-section {
   padding: 5rem 2rem;
   background-color: var(--cinza-claro);
@@ -485,7 +491,7 @@ img {
   font-weight: 600;
 }
 
-/* ===== DEPOIMENTOS ===== */
+/* ===== SEÇÃO DE DEPOIMENTOS ===== */
 .testimonials-section {
   padding: 5rem 2rem;
   background: var(--branco);
@@ -560,6 +566,7 @@ img {
   color: var(--cinza-medio);
 }
 
+/* ===== LOGOS DE EMPRESAS ===== */
 .companies-logos {
   margin-top: 3rem;
 }
@@ -588,6 +595,7 @@ img {
   opacity: 1;
 }
 
+/* ===== SEÇÃO CTA ===== */
 .cta-section {
   padding: 5rem 2rem;
   background: linear-gradient(135deg, var(--verde-principal), var(--verde-escuro));
@@ -643,6 +651,7 @@ img {
   display: block;
 }
 
+/* ===== FOOTER ===== */
 .footer-app {
   background: var(--cinza-escuro);
   color: var(--branco);
@@ -777,6 +786,7 @@ img {
   color: var(--verde-principal);
 }
 
+/* ===== BOTÃO FLUTUANTE WHATSAPP ===== */
 .whatsapp-float {
   position: fixed;
   bottom: 2rem;
@@ -803,7 +813,7 @@ img {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* ===== RESPONSIVIDADE ===== */
+/* ===== MEDIA QUERIES (RESPONSIVIDADE) ===== */
 @media (max-width: 992px) {
   .cta-container {
     grid-template-columns: 1fr;
